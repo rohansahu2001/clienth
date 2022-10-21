@@ -82,20 +82,23 @@ color: rgb(15, 222, 146);
 }
 #hero{
     
-    background-image: url("ko.png");
+   
     background-color:rgb(227, 247, 252) ;
     height: 90vh;
     width: 100vw;
-    background-size: 60%;
-    background-position: 50vw;
-    background-repeat: no-repeat;
+   
     padding: 0 80px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
 }
-
+.heroimg{
+    background-image: url("ko.png");
+    background-size: 60%;
+    background-position: 50vw;
+    background-repeat: no-repeat;
+}
 #hero h4{
     margin-bottom: 15px;
     font-size: 30px;
